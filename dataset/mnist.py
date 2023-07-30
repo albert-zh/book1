@@ -86,7 +86,7 @@ def _change_one_hot_label(X):
         
     return T
     
-
+# 原始加载的数据是已经flatten的数据
 def load_mnist(normalize=True, flatten=True, one_hot_label=False):
     """读入MNIST数据集
     
